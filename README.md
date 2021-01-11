@@ -49,6 +49,7 @@ Your app is ready to be deployed!
 * [React](https://reactjs.org/) - The JavaScript library framework used
 * [Bulma](https://bulma.io/) - Simple open source CSS Framework
 * [Normalize.css](https://necolas.github.io/normalize.css/) - A modern alternative to CSS resets
+* [University Domains and Names Data List & API](https://github.com/Hipo/university-domains-list) - The API for a list of universities and their domain names
 
 ## Authors
 
