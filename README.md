@@ -30,7 +30,7 @@ Launches the test runner in the interactive watch mode.
 
 ### Note on Newsletter data
 
-Any data saved using <Newsletter/> component is stored in a json inside [https://api.bedeviere.com/users](https://api.bedeviere.com/users)
+Any data saved using `<Newsletter/>` component is stored in a json inside [https://api.bedeviere.com/users](https://api.bedeviere.com/users)
 
 ## Deployment
 
