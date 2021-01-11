@@ -1,0 +1,14 @@
+// Color Schemes
+$color-default: #003262;
+$color-primary: #FDB515;
+$color-secondary: #00B0DA;
+$color-disabled: #DBDBDB;
+
+// Font Variables
+$font-sans: 'Lato', Helvetica, Arial, sans-serif;
+$font-montserrat: 'Montserrat', Helvetica, Arial, sans-serif;
+
+// Mixins
+@mixin transition-default {
+  transition: all 0.3s ease;
+}

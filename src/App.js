@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Route, Switch } from 'react-router-dom';
+
+import 'normalize.css/normalize.css';
+import 'bulma/css/bulma.min.css';
+import './assets/scss/default.scss';
+
+import Navbar from './views/common/Navbar';
+import Footer from './views/common/Footer';
+
+import Home from './views/Home';
+import About from './views/About';
+import Error404 from './views/Error404';
+
+import Newsletter from './components/Newsletter';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="wrapper has-navbar-fixed-top">
+      <Navbar></Navbar>
+      <Switch>
+        <Route path="/" component={Home} exact />
+        <Route path="/about" component={About} />
+        <Route component={Error404} />
+      </Switch>
+      <Newsletter></Newsletter>
+      <Footer></Footer>
     </div>
   );
 }
