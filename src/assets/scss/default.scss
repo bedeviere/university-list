@@ -1,10 +1,21 @@
 @import 'variables.scss';
 
+a {
+  text-decoration: underline;
+}
+
 .wrapper {
   min-height: 100%;
   position: relative;
   &.has-navbar-fixed-top {
     padding-top: 3.25rem;
+  }
+}
+
+.navbar-item {
+  text-decoration: none;
+  a {
+    text-decoration: none;
   }
 }
 
